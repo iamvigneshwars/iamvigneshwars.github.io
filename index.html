@@ -160,14 +160,19 @@
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">Annotate Unstructured Medical Abstracts</h4>
-                                <p class="mb-0 text-white-50">  Unstructured and long abstracts may not be easy to read. Over half of the published medical works of literature published in has unstructured abstracts.                                   This web app annotates the required sections in such abstracts which makes it easy to read and extract information quickly.</p>
+                                <p class="mb-0 text-white-50"> Unstructured and long abstracts may not be easy to read.
+                                    Over half of the published medical works of literature published in has unstructured
+                                    abstracts. Developed a web app that can annotate sections in such abstracts. A
+                                    hybrid attention-lstm model train on 2 million sentences from 200,000 medical
+                                    abstracts classifies the sentences with their appropriate sections.</p>
                                 <img class="rounded" src="assets/img/python.png" width="60" alt="...">
                                 <img class="rounded" src="assets/img/tf.png" width="50" alt="...">
                                 <img class="rounded" src="assets/img/flask.png" width="50" alt="...">
                                 <img class="rounded" src="assets/img/bootstrap-logo.png" width="60" alt="...">
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                                 <a target="_blank"
-                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More Info</a>
+                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More
+                                    Info</a>
                             </div>
                         </div>
                     </div>
@@ -184,89 +189,122 @@
                             <div class="project-text w-100 my-auto text-center text-lg-left">
                                 <h4 class="text-white">AI solves cart and pole</h4>
                                 <p class="mb-0 text-white-50">
-                                    The agent uses deep q-learning to approximate the q-values for state-action pair and selects the actions with maximum expected returns.
-                                    The agent learned to solve the cartpole game using the OpenAi gym environment by just learning for 120 episodes. 
-                                    It consistently scores 500 points (max points) in all the games.
-
-                                            
+                                    The agent uses deep q-learning to approximate the q-values for state-action pair and
+                                    selects the actions with maximum expected returns.
+                                    The agent learned to solve the cartpole in the OpenAi gym environment within 120
+                                    episodes.
+                                    The agent consistently scores 500 points (max points) in every episode.
                                 </p>
                                 <img class="rounded" src="assets/img/python.png" width="60" alt="...">
                                 <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
                                 <hr class="d-none d-lg-block mb-0 ms-0" />
                                 <a target="_blank"
-                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More Info</a>
+                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More
+                                    Info</a>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project three Row-->
+            <!-- Project Three Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/tictactoe.gif" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/lunarlander.gif" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Tic Tac Toe AI</h4>
-                                    <p class="mb-0 text-white-50">AI uses the MiniMax Algorithm to search for all the
-                                        possible moves from the current state and chooses
-                                        best move if the player plays optimally. You can never beat this AI, give it a
-                                        try!
+                                    <h4 class="text-white">Lunar Lander</h4>
+                                    <p class="mb-0 text-white-50"> Developed an AI agent using vanilla policy gradient
+                                        with basesline that learns to solve
+                                        LunarLander and CartPole in OpenAi environment. For learning the agent follows
+                                        monti carlo method to approximate the probablity distribution of the actions.
                                     </p>
                                     <br>
-                                    <img class="rounded" src="assets/img/js.png" width="30" alt="...">
-                                    <img class="rounded" src="assets/img/html.png" width="30" alt="...">
-                                    <img class="rounded" src="assets/img/css.png" width="30" alt="...">
+                                    <img class="rounded" src="assets/img/python.png" width="60" alt="...">
+                                    <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
-                                    <div class="text-start inline">
-                                        <a target="_blank" href="https://iamvigneshwars.github.io/tic-tac-toe-ai/">Play Game</a>
-                                        <span style="float: right;">
-                                            <a target="_blank"
-                                                href="https://github.com/iamvigneshwars/tic-tac-toe-ai">More Info</a>
-                                        </span>
-                                    </div>
+                                    <a target="_blank"
+                                        href="https://github.com/iamvigneshwars/policy-gradient-baseline-pytorch">More
+                                        Info</a>
+                                    </span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Project four Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/rsp.gif" alt="..." /></div>
-                    <div class="col-lg-6 order-lg-first">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Rock Paper Scissors AI</h4>
-                                    <p class="mb-0 text-white-50">AI built using Markov Chain model to predict the
-                                        player's
-                                        next move only based on the player's last move(markov property). The AI gets
-                                        better
-                                        and will start to win more games as you play many rounds with it. It's a weird
-                                        feeling when the AI
-                                        can predict what you think, give it a try!
-                                    </p>
-                                    <br>
-                                    <img class="rounded" src="assets/img/js.png" width="30" alt="...">
-                                    <img class="rounded" src="assets/img/html.png" width="30" alt="...">
-                                    <img class="rounded" src="assets/img/css.png" width="30" alt="...">
-                                    <hr class="d-none d-lg-block mb-0 me-0" />
-                                    <div class="text-start inline">
-                                        <a target="_blank"
-                                            href="https://iamvigneshwars.github.io/rock-paper-scissors-ai/">Play Game</a>
-                                        <span style="float: right;">
-                                            <a target="_blank"
-                                                href="https://github.com/iamvigneshwars/rock-paper-scissors-ai">More Info</a>
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
+
+            <!-- Project four Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/rsp.gif" alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-right">
+                                <h4 class="text-white">Rock Paper Scissors AI</h4>
+                                <p class="mb-0 text-white-50">AI built using Markov Chain model to predict the
+                                    player's
+                                    next move only based on the player's last move(markov property). The AI gets
+                                    better
+                                    and will start to win more games as you play many rounds with it. It's a weird
+                                    feeling when the AI
+                                    can predict what you think, give it a try!
+                                </p>
+                                <br>
+                                <img class="rounded" src="assets/img/js.png" width="30" alt="...">
+                                <img class="rounded" src="assets/img/html.png" width="30" alt="...">
+                                <img class="rounded" src="assets/img/css.png" width="30" alt="...">
+                                <hr class="d-none d-lg-block mb-0 me-0" />
+                                <div class="text-start inline">
+                                    <a target="_blank"
+                                        href="https://iamvigneshwars.github.io/rock-paper-scissors-ai/">Play
+                                        Game</a>
+                                    <span style="float: right;">
+                                        <a target="_blank"
+                                            href="https://github.com/iamvigneshwars/rock-paper-scissors-ai">More
+                                            Info</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project five Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/tictactoe.gif" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Tic Tac Toe AI</h4>
+                                <p class="mb-0 text-white-50">AI uses the MiniMax Algorithm to search for all the
+                                    possible moves from the current state and chooses
+                                    best move if the player plays optimally. You can never beat this AI, give it a
+                                    try!
+                                </p>
+                                <br>
+                                <img class="rounded" src="assets/img/js.png" width="30" alt="...">
+                                <img class="rounded" src="assets/img/html.png" width="30" alt="...">
+                                <img class="rounded" src="assets/img/css.png" width="30" alt="...">
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                                <div class="text-start inline">
+                                    <a target="_blank" href="https://iamvigneshwars.github.io/tic-tac-toe-ai/">Play
+                                        Game</a>
+                                    <span style="float: right;">
+                                        <a target="_blank" href="https://github.com/iamvigneshwars/tic-tac-toe-ai">More
+                                            Info</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
     </section>
 
     <!-- Footer -->
