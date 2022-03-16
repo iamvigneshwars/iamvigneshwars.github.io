@@ -161,7 +161,8 @@
                                 <h4 class="text-white">AI Humanoid Walker - Proximal Policy Optimization</h4>
                                 <p class="mb-0 text-white-50">
                                    Developed an AI agent that learned to walk, run and crawl by itself without any given training data in the pybullet environment.
-                                   PPO with generalized advantage estimation is used for training the agents.
+                                   <!-- PPO with generalized advantage estimation is used for training the agents. -->
+                                   The agent interacts with the environment, collects rewards, and uses PPO with a clipped objective to learn from those experiences.
 
                                 </p>
                                 <img class="rounded" src="assets/img/python.png" width="60" alt="...">
@@ -194,60 +195,6 @@
                                 <a target="_blank"
                                     href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More
                                     Info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Project Two Row-->
-            <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cartpole.gif" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">AI solves cart and pole</h4>
-                                <p class="mb-0 text-white-50">
-                                    The agent uses deep q-learning to approximate the q-values for state-action pair and
-                                    selects the actions with maximum expected returns.
-                                    The agent learned to solve the cartpole in the OpenAi gym environment within 120
-                                    episodes.
-                                    The agent consistently scores 500 points (max points) in every episode.
-                                </p>
-                                <img class="rounded" src="assets/img/python.png" width="60" alt="...">
-                                <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
-                                <a target="_blank"
-                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More
-                                    Info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!-- Project Three Row-->
-                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/lunarlander.gif" alt="..." /></div>
-                    <div class="col-lg-6">
-                        <div class="bg-black text-center h-100 project">
-                            <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Lunar Lander</h4>
-                                    <p class="mb-0 text-white-50"> Developed an AI agent using vanilla policy gradient
-                                        that learned to solve
-                                        LunarLander and CartPole in OpenAi environment. The agent follows
-                                        monte carlo method to approximate the probablity distribution of the actions.
-                                    </p>
-                                    <br>
-                                    <img class="rounded" src="assets/img/python.png" width="60" alt="...">
-                                    <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
-                                    <hr class="d-none d-lg-block mb-0 ms-0" />
-                                    <a target="_blank"
-                                        href="https://github.com/iamvigneshwars/policy-gradient-baseline-pytorch">More
-                                        Info</a>
-                                    </span>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -290,6 +237,61 @@
                     </div>
                 </div>
             </div>
+
+         
+            <!-- Project Three Row-->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/lunarlander.gif" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Lunar Lander - Policy Gradient</h4>
+                                    <p class="mb-0 text-white-50"> Developed an AI agent using vanilla policy gradient
+                                        that learned to solve
+                                        LunarLander and CartPole in OpenAi environment. The agent follows
+                                        monte carlo method to approximate the probablity distribution of the actions.
+                                    </p>
+                                    <br>
+                                    <img class="rounded" src="assets/img/python.png" width="60" alt="...">
+                                    <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
+                                    <hr class="d-none d-lg-block mb-0 ms-0" />
+                                    <a target="_blank"
+                                        href="https://github.com/iamvigneshwars/policy-gradient-baseline-pytorch">More
+                                        Info</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+   <!-- Project Two Row-->
+            <div class="row gx-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cartpole.gif" alt="..." /></div>
+                <div class="col-lg-6 order-lg-first">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Cart and Pole DQN</h4>
+                                <p class="mb-0 text-white-50">
+                                    The agent uses deep q-learning to approximate the q-values for state-action pair and
+                                    selects the actions with maximum expected returns.
+                                    The agent learned to solve the cartpole in the OpenAi gym environment within 120
+                                    episodes.
+                                    The agent consistently scores 500 points (max points) in every episode.
+                                </p>
+                                <img class="rounded" src="assets/img/python.png" width="60" alt="...">
+                                <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                                <a target="_blank"
+                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More
+                                    Info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Project four Row-->
 
             <!-- Project five Row-->
             <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
