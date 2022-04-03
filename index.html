@@ -65,10 +65,7 @@
                     <!-- <br><br><br><br><br><br><br> -->
                     <h2 class="text-white mb-4">Hello! I'm Viki, a recent <a
                             href="https://www.royalholloway.ac.uk/">RHUL</a> postgrad in AI. </h2>
-                    <p class="text-white-50">I'm an AI software developer, interested in building useful AI-based
-                        apps, cool AI agents that can play games, and web apps.
-                        I have 7 years of hands-on experience in programming and have developed multiple projects over the years.
-                        <!-- I prefer to have a broad knowledge on different technologies and love learning new stuff. -->
+                    <p class="text-white-50">I'm an AI software developer, interested in building useful AI-based apps, AI agents, and web apps. I have 7 years of hands-on experience in programming (primarily in python) and have developed multiple projects over the years. 
                         I love to learn and always up for learning something new. 
 
 
@@ -77,24 +74,23 @@
                         <h5 class="text-start">Master of Science in Artificial Intelligence</h5>
                         <p class="text-start text-white-50">Royal Holloway University of London | Jan 2021 -
                             Jan 2022 <br>
-                            <strong>Class: </strong>Distinction | <strong>Avg: </strong>81.3%
-                            <br><br>
+                            <strong>Grade: </strong>Distinction 
+                            <!-- <br><br>
                             <strong>Relevant Courseworks: </strong>Machine learning, Deep Learing, Natural Language
                             Processing, Autonomous Intelligent Systems, Artificial Intelligence Principles and
                             Techniques, Experimental Design.
-                            <br><br>
+                            <br><br> -->
+                            <br>
                             <strong>Final Project: </strong> Built a web app that annotates all the sections in a long
                             and unstructured medical abstract to make it skimmable. 
                             Please go to the <a href="#projects">projects</a> section to know more about this project.
-
-
                         </p>
 
                         <h5 class="text-start">Bachelor of Engineering in Computer Science</h5>
                         <p class="text-start text-white-50">Anna University
                             | Aug 2015 - Nov 2019 <br>
-                            <strong>Class: </strong>First Class
-                            <br><br>
+                            <strong>Grade: </strong>First Class
+                            <!-- <br><br>
                             <strong>Relevant Courseworks: </strong> Computer Architecture, Database Management Systems,
                             Digital Principles and System Design, Programming and Data Structures, Analog and Digital
                             Communication, Operating systems, Design and Analysis of Algorithms, Computer Networks,
@@ -102,7 +98,8 @@
                             Distributed Systems, Artificial Intelligence, Compiler Design, Mobile Computing,
                             cryptography and Network Security, Grid and Cloud Computing, Cyber Forensics, Information
                             Retrival and Resource Management Techniques.
-                            <br><br>
+                            <br><br> -->
+                            <br>
                             <strong>Final Project: </strong>Built a semi-autonomous drone from scratch and integrated it
                             with Raspberry Pi 3 that can fly from one location to another using GPS, detect all the
                             objects during flight, and track and follow a region of interest (specific color and
@@ -113,7 +110,7 @@
 
                     <div class="container text-white">
                         <h2 class="text-white mb-4">Skills</h2>
-                        <strong class='text-white-50'>Languages</strong>
+                        <strong class='text-white-50'>Programming Languages</strong>
                         <br>
                         <br>
                         <img class="rounded" src="assets/img/c.png" width="40" alt="...">
@@ -162,7 +159,7 @@
                                 <p class="mb-0 text-white-50">
                                    Developed an AI agent that learned to walk, run and crawl by itself without any given training data in the pybullet environment.
                                    <!-- PPO with generalized advantage estimation is used for training the agents. -->
-                                   The agent interacts with the environment, collects rewards, and uses PPO with a clipped objective to learn from those experiences.
+                                   The agent interacts with the environment, collects rewards, and learns from those experiences using proximal policy optimization,which is a reinforcement learning algorithm.
 
                                 </p>
                                 <img class="rounded" src="assets/img/python.png" width="60" alt="...">
@@ -186,6 +183,7 @@
                                 <h4 class="text-white">Skim Unstructured Medical Abstracts</h4>
                                 <p class="mb-0 text-white-50"> Unstructured and long abstracts can be hard to read. Over half of the medical literature published in PubMed RTC has unstructured abstracts.
                                      Developed a web app that annotates sections (objective, background, methods, results, and conclusion) in such abstracts which makes it skimmable.
+                                     A Bi-LSTM-Attention model trained with 2 million sentences from 200,000 medical abstracts classifies the and annotates the sentences. 
                                 </p>
                                 <img class="rounded" src="assets/img/python.png" width="60" alt="...">
                                 <img class="rounded" src="assets/img/tf.png" width="50" alt="...">
@@ -213,9 +211,8 @@
                                     player's
                                     next move only based on the player's last move(markov property). The AI gets
                                     better
-                                    and will start to win more games as you play many rounds with it. It's a weird
-                                    feeling when the AI
-                                    can predict what you think, give it a try!
+                                    and will start to win more games as you play many rounds with it. 
+                                    It's very exciting when the AI could predict what we think (our next move), give it a try!
                                 </p>
                                 <br>
                                 <img class="rounded" src="assets/img/js.png" width="30" alt="...">
@@ -268,35 +265,8 @@
             </div>
    <!-- Project Two Row-->
             <div class="row gx-0 justify-content-center">
-                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cartpole.gif" alt="..." /></div>
-                <div class="col-lg-6 order-lg-first">
-                    <div class="bg-black text-center h-100 project">
-                        <div class="d-flex h-100">
-                            <div class="project-text w-100 my-auto text-center text-lg-left">
-                                <h4 class="text-white">Cart and Pole DQN</h4>
-                                <p class="mb-0 text-white-50">
-                                    The agent uses deep q-learning to approximate the q-values for state-action pair and
-                                    selects the actions with maximum expected returns.
-                                    The agent learned to solve the cartpole in the OpenAi gym environment within 120
-                                    episodes.
-                                    The agent consistently scores 500 points (max points) in every episode.
-                                </p>
-                                <img class="rounded" src="assets/img/python.png" width="60" alt="...">
-                                <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
-                                <hr class="d-none d-lg-block mb-0 ms-0" />
-                                <a target="_blank"
-                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More
-                                    Info</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <!-- Project four Row-->
-
-            <!-- Project five Row-->
-            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                 <div class="col-lg-6"><img class="img-fluid" src="assets/img/tictactoe.gif" alt="..." /></div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-lg-first">
                     <div class="bg-black text-center h-100 project">
                         <div class="d-flex h-100">
                             <div class="project-text w-100 my-auto text-center text-lg-left">
@@ -306,7 +276,6 @@
                                     best move if the player plays optimally. You can never beat this AI, give it a
                                     try!
                                 </p>
-                                <br>
                                 <img class="rounded" src="assets/img/js.png" width="30" alt="...">
                                 <img class="rounded" src="assets/img/html.png" width="30" alt="...">
                                 <img class="rounded" src="assets/img/css.png" width="30" alt="...">
@@ -318,6 +287,35 @@
                                         <a target="_blank" href="https://github.com/iamvigneshwars/tic-tac-toe-ai">More
                                             Info</a>
                                     </span>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Project four Row-->
+
+            <!-- Project five Row-->
+            <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
+                <div class="col-lg-6"><img class="img-fluid" src="assets/img/cartpole.gif" alt="..." /></div>
+                <div class="col-lg-6">
+                    <div class="bg-black text-center h-100 project">
+                        <div class="d-flex h-100">
+                            <div class="project-text w-100 my-auto text-center text-lg-left">
+                                <h4 class="text-white">Cart and Pole DQN</h4>
+                                <p class="mb-0 text-white-50">
+                                    The agent uses deep q-learning to approximate the q-values for state-action pair and
+                                    selects the actions with maximum expected returns.
+                                    The agent learned to solve the cartpole in the OpenAi gym environment within 120
+                                    episodes.
+                                    The agent consistently scores 500 points (max points) in every episode.
+                                </p>
+                                <br>
+                                <img class="rounded" src="assets/img/python.png" width="60" alt="...">
+                                <img class="rounded" src="assets/img/torch.png" width="70" alt="...">
+                                <hr class="d-none d-lg-block mb-0 ms-0" />
+                                <a target="_blank"
+                                    href="https://github.com/iamvigneshwars/annotate-unstructured-medical-abstracts">More
+                                    Info</a>
                                 </div>
                             </div>
                         </div>
